@@ -4,12 +4,15 @@
     "lib": ["ES2020"],
     "target": "ESNext",
     "moduleResolution": "node",
-    "module": "ESNext",
     "outDir": "dist",
     "declaration": true,
-    "declarationDir": "types"
+    "declarationDir": "types",
+    "types": ["jest"]
   },
   "include": [
-    "src"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts",
   ]
 }
