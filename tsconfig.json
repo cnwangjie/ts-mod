@@ -4,7 +4,7 @@
     "lib": ["ES2020"],
     "target": "ESNext",
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "dist/esm",
     "declaration": true,
     "declarationDir": "types",
     "types": ["jest"]
