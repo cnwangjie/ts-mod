@@ -1,2 +1,3 @@
 # ts-mod
-Typescript module scafford
+
+Typescript module scaffold
