@@ -11,10 +11,14 @@
     "build": "yarn build:cjs && yarn build:esm",
     "build:esm": "tsc -p . -m ESNext --outDir dist/esm",
     "build:cjs": "tsc -p . -m commonjs --outDir dist/cjs",
+    "test": "vitest",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "@types/node": "^20.10.1",
-    "typescript": "^5.3.2"
-  }
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.2"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
